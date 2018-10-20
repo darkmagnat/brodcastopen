@@ -28,7 +28,7 @@ client.on('message', async message => { // Alpha Codes Server.
     if(message.author.bot) return;
     if(message.channel.type === 'dm') return;
  
-    var prefix = '#'; //<==== تقدر تغير البرفكس
+    var prefix = '$'; //<==== تقدر تغير البرفكس
     var args = message.content.toLowerCase().split(" "); // Alpha Codes Server.
     var command = args[0];
  
@@ -261,7 +261,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : Diamond Codes ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`لا الله الا الله |By:LooZ`,"http://twitch.tv/S-F")
+client.user.setGame(`لا الله الا الله `,"http://twitch.tv/S-F")
 client.user.setStatus("online")
  
 });
